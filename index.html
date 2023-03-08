@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV CAMILO LEON</title>
+</head>
+<body>
+    <!-- SECTION DEBUT -->
+    <section class="debut" id="debut">
+        <div class="contenu-section">
+            <header>
+                <div class="nav-bar" onclick="afficherMasquerMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#debut">Information</a>
+                    <a href="#profil">Profil</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#resume">Résumé</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="logo">
+                    C<span class="couleur">L</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>CAMILO LEON PINILLA</h1>
+                <h2>ANALYSTE EN QUALITÉ LOGICIEL</h2>
+                <div class="reseaux">
+                    <a href="https://www.linkedin.com/in/sql-calp"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/canlepi"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/watch?v=joSTRn_fAEc&list=PLTRV3JymYE9eIEIDS1v6OZNUPNUYmehsy"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/canlepi"><i class="fab fa-github"></i></a>					
+                </div>
+            </div>
+            <div class="photo">
+                <img src="img/clp-sql2023.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="profil" id="profil">
+        <div class="contenu-section">
+            <h2 class="titre-section">Profil</h2>
+            <h3>Information Personnelle</h3>
+
+            <p class="special">Je me consacre à la planification, la mise en oeuvre, l'exécution, la maintenance et la documentation des test manuels tant qu'automatisés qui vont permettre de faire la validation de la qualité, le bon fonctionnement et la accomplissement des exigences du client par rapport au logiciel testé.</p>
+            <p>J'ai aussi de solides connaissances sur le cycle de vie de développement logiciel, le processus de l'assurance qualité, l'analyse et la conception de logiciels, la programmation orientée à objets et la gestion de projets.</p>
+            <p></p>
+
+            <div class="ligne">
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titre-detail">Compétences Techniques</span>
+                    <ul>
+                        <li>Éxecution de tests d'AQ manuelles et automatisés ainsi que de la formulation de plans de test et de rapports d'AQ.</li>
+                        <li>Maitrise des outils de gestion d'anomalies et d'éxécution de cas de test: TestLink, JiraXray, RobotFramework, Sélénium.</li>
+                        <li>Connaissances approfondis sur certains languages de programmation orientée à objets, Java et Python, ainsi que du language de manipulation des données SQL.</li>
+                        <li>Modélisation de diagrammes BPMN et de diagrammes UML.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Competences Personnelles</span>
+                    <ul>
+                        <li>Passion des technologies.</li>
+                        <li>Esprit d'initiative et souci du détail.</li>
+                        <li>Expertise dans la résolution de problèmes.</li>
+                        <li>Bonne capacité pour travailler de manière individuel ou en équipe.</li>
+                        <li>Sens de la responsabilité, de l'observation, de l'organisation et de l'analyse.</li>
+                        <li>Communication orale et écrite en français, en anglais et en espagnol.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titre-detail">Outils éxploitées</span>
+                    <ul>
+                        <li><span>Front-End:</span> HTML5, CCS3, Bootstrap, JavaScript</li>
+                        <li><span>Back-End:</span> Java (Eclipse), C# .Net (Visual Studio), Python (Pycharm).</li>
+                        <li><span>S.G.B.D.:</span> Oracle, MySQL, Apache NetBeans.</li>
+                        <li><span>Frameworks:</span> Angular, Selenium, Robot Framework, PyTest, J-Unit.</li>
+                        <li><span>Assurance Qualité:</span> TestLink, Confluence, JiraXray, PICT, BPMN.</li>
+                        <li><span>Intégration Continue:</span> Git, GitHub, GitLab.</li>
+                        <li><span>Analyses et conception:</span> Agile Scrum, UML (Visual Paradigme).</li>
+                        <li><span>Éditeur de code:</span> Sublime Text, VS Code, NotePad++.</li>
+                        <li><span>Autres:</span> Putty, Zoom, Debian, Bureautique MS Office</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION COMPETENCES -->
+    <section class="competences" id="competences">
+        <div class="contenu-section">
+            <h2 class="titre-section">Mes compétences</h2>
+            <h3>Je me specialisé dans :</h3>
+
+            <div class="ligne">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="html">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                            
+                        </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="javascript">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                           
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col">
+                    <span>PHYTON</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="wordpress">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                           
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>SELENIUM</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="photoshop">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                           
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col">
+                    <span>JAVA</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="php">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                           
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>SQL</span>
+                    <div class="cont-barre">
+                        <div class="barre" id="ilustrator">
+                            <!-- Grâce à javascript, 17 barres de classe e sont générées. -->
+							                           
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION RESUMÉ -->
+    <section class="resume" id="resume">
+        <div class="contenu-section">
+            <h2 class="titre-section">Résumé</h2>
+            <h3>Formation et parcours</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titre">Education</span>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>2022</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Collaborer à l'implantation d'un programme d'assurance qualité pour logiciels // Détecter les anomalies et les faiblesses dans des applications, logiciels et sites Web // Automatiser, réaliser et exécuter cas de tests.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Specialiste en Qualité Logiciel</h4>
+                                <p>Collège Bois de Boulogne</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>2020</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Modéliser les besoins des usagers selon le langage unifié UML // Appliquer les concepts fondamentaux de l'orienté objet afin de créer des applications Web // Programmer, déployer et assurer la qualité des systèmes informatiques.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Analyste Programmeur</h4>
+                                <p>Collège Bois de Boulogne</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>2008</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Conseiller, concevoir, exécuter, maintenir et auditer des systèmes de gestion indépendants ou intégrés pour la santé et la sécurité au travail, la qualité et l'environnement d'un organisation.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Specialiste de la Gestion Intégrée QHSE</h4>
+                                <p>École colombienne de génie "Julio Garavito", Bogota - Colombie</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>2002</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Concevoir et exécuter des technologies appropriées pour le traitement de l'eau, de l'air, du sol et une bonne gestion des déchets // Évaluer les événements de contamination et de dégradation des systèmes naturels, sociaux et commerciaux // Réaliser des plans de gestion et des études d'impact sur l'environnement.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Ingénieur en Environnement et Sanitaire</h4>
+                                <p>Université de La Salle, Bogota - Colombie</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titre">Experience de Travail</span>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>FEVRIER 2021 - JUIN 2022</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Gestion de la base de donnée de l'entreprise. //
+                                Collecte, emballage et etiquetage des articles pour leur livraison. //
+                                Identification, comptage et vêrification des articles dans l'entrepôt.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Manpower Services - Linde Canada</h4>
+                                <p>Prepose administratif</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>NOVEMBRE 2019 - JANVIER 2020</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Réutilisation, refactoring et profilage du code des applications web en utilisant Angular 8.0.
+                                // Participer aux processus Agile (Scrum). // Manipulation de Base de Données de l'entreprise.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Maximus Systems</h4>
+                                <p>Programmeur Front-End - (Stagiaire)</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>JUILLET 2016 - NOVEMBRE 2016</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Saisi de données, impression et commercialisation de cartes OPUS avec photo pendant la tournée scolaire.
+                                // Gestion du services client.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Gestion Termico Inc</h4>
+                                <p>Preposé commercial</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="donnees">
+                                <h3>DECEMBRE 2008 - MARS 2015</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                Donner l'orientation technique aux fournisseurs des services de santé sur des réglementations sanitaires et en environnement de la Colombie. // Surveiller la bonne gestion environnemental dans les centres de santé et dans les hôpitaux de Bogota, Colombie.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Secretariat de la Santé de Bogota, Colombie</h4>
+                                <p>Auditeur en Environnement</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contact" id="contact">
+        <div class="contenu-section">
+            <h2 class="titre-section">Contact</h2>
+            <h3>Contactez-moi dès maintenant!</h3>
+
+            <div class="ligne">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Téléphone
+                    </h2>
+                    <span class="info-contact">438 - 886 0638</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Courriel électronique
+                    </h2>
+                    <span class="info-contact">canlepi@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Courriel électronique alternatif
+                    </h2>
+                    <span class="info-contact">canlepi@hotmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

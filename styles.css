@@ -1,0 +1,355 @@
+/* importer les polices */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECTION DEBUT */
+.debut{
+    background: linear-gradient(rgba(90,90,90,.1), rgba(90,90,90,.1)),
+    url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #f2f2f2;
+}
+
+.debut .contenu-section{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.debut .contenu-section header{
+    padding: 30px;
+}
+
+/* menu lateral */
+.debut .contenu-section header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #1565C0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.debut .contenu-section header nav a{
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* ****** */
+.debut .contenu-section header .logo{
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #f2f2f2;
+}
+.debut .contenu-section header .logo .couleur{
+    color: #1565C0;
+    font-family: "Yellowtail";
+}
+.debut .contenu-section header .nav-bar{
+    position: fixed;
+    background-color: #1565C0;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.debut .contenu-section header .nav-bar:hover{
+    box-shadow: 0 0 35px #f2f2f2;
+}
+.debut .contenu-section .info{
+    padding-bottom: 130px;
+}
+.debut .contenu-section .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.debut .contenu-section .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.debut .contenu-section .info .reseaux{
+    margin: 20px 0;
+}
+.debut .contenu-section .info .reseaux a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1565C0;
+    color: #fff;
+    border: 1px solid #1565C0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.debut .contenu-section .info .reseaux a:hover{
+    color: #1565C0;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px #1565C0;
+}
+.debut .contenu-section .photo{
+    position: relative;
+}
+.debut .contenu-section .photo img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #1565C0;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/* styles generaux */
+.titre-section{
+    font-family: "Yellowtail";
+    font-size: 2.5rem;
+}
+/* SECTION PROFIL */
+.profil{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.profil .contenu-section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+}
+.profil .contenu-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.perfil .contenu-section .special{
+    color: #1565C0;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profil .contenu-section p{
+    max-width: 900px;
+    margin: auto;
+    color: #666;
+}
+.profil .contenu-section .ligne{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.profil .contenu-section .ligne .col{
+    width: 30%;
+}
+.profil .contenu-section .ligne .col i{
+    color: #1565C0;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1565C0;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.profil .contenu-section .ligne .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.profil .contenu-section .ligne .col ul li{
+    list-style: square;
+    text-align: justify;
+}
+
+.profil .contenu-section .ligne .col ul li span{
+    display: inline;
+}
+
+/* SECTION COMPETENCES */
+.competences{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(90,90,90,.3), rgba(0,0,0,.8)),
+    url("img/quality.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.competences .contenu-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.competences .contenu-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.competences .contenu-section .ligne{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.competences .contenu-section .ligne .col{
+    width: 47%;
+    text-align: left;
+}
+.competences .contenu-section .ligne .col .cont-barre{
+    display: flex;
+    align-items: center;
+}
+.competences .contenu-section .barre{
+    display: flex;
+    border: 1px solid #1565C0;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.competences .contenu-section .barre .e{
+    background-color: #1565C0;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* SECtION RESUMÉ */
+.resume{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resume .contenu-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resume .contenu-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resume .contenu-section .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resume .contenu-section .info .col{
+    width: 45%;
+}
+.resume .contenu-section .info .col .titre{
+    display: inline-block;
+    color: #1565C0;
+    font-weight: bold;
+    border: 2px solid #d2652f;
+    padding: 10px;
+}
+.resume .contenu-section .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.resume .contenu-section .info .col table .donnees{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.resume .contenu-section .info .col table h4{
+    margin-top: 10px;
+}
+.resume .contenu-section .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resume .contenu-section .info .col table p{
+    font-size: 14px;
+}
+.resume .contenu-section .info .col table .moyenne{
+    display: block;
+    color: #1565C0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.resume .contenu-section .info .col table .description{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+/* SECTION CONTACT */
+.contact{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #F5F5F5;
+    text-align: center;
+}
+.contact .contenu-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contact .contenu-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact .contenu-section .ligne{
+    display: flex;
+    justify-content: space-around;
+}
+.contact .contenu-section .ligne .col{
+    margin-top: 50px;
+}
+.contact .contenu-section .ligne .col h2{
+    color: #1565C0;
+}
+/* SECTION RESPONSIVE */
+@media screen and (max-width:800px){
+    .competences .contenu-section .ligne{
+        display: block;
+    }
+    .competences .contenu-section .ligne .col{
+        width: 100%;
+        text-align: center;
+    }
+    .competences .contenu-section .ligne .col .cont-barre{
+        justify-content: center;
+    }
+    .profil .contenu-section .ligne{
+        display: block;
+    }
+    .profil .contenu-section .ligne .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resume .contenu-section .info{
+        display: block;
+    }
+    .resume .contenu-section .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resume .contenu-section .info .col .titre{
+        display: block;
+        text-align: center;
+    }
+    .resume .contenu-section .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contact .contenu-section .ligne{
+        display: block;
+    }
+}
